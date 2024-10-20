@@ -32,7 +32,7 @@ create index figury_idx on
    figury (
       ksztalt
    )
-      indextype is spatial_index_v2;
+      indextype is mdsys.spatial_index_v2;
 
 -- 1D (niepoprawny wynik, ponieważ Operator SDO_FILTER, który wykorzystuje jedynie pierwszą fazę zapytania)
 select id
